@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(dir:*)",
+      "Shell(python --version)",
+      "Shell(where:*)",
+      "Shell(dir /b /s venv .venv env 2>nul)",
+      "Shell(.venvScriptspython.exe:*)",
+      "Shell(tasklist:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

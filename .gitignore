@@ -1,0 +1,15 @@
+.env
+*.db
+*.db-*
+*.db.bak-*
+*.log
+screenshots/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
